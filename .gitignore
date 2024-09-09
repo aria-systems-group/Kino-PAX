@@ -4,3 +4,20 @@
 *.ptx
 *.cubin
 *.fatbin
+
+build/*
+.vscode/*
+
+# figures
+viz/figs/*
+!viz/figs/.gitkeep
+
+# NSIGHT
+NSight/*
+!NSight/command.md
+
+
+# Benchmarking
+benchmarking/*
+!benchmarking/bench.m
+!benchmarking/benchmarking.py
